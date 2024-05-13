@@ -14,15 +14,15 @@
         <main>
             <form id="survey-form" action="">
                 <p>
-                    <label for="customer-name">Name</label>
+                    <label id="name-label" for="customer-name">Name</label>
                     <input placeholder="Enter your name" name="customer-name" id="customer-name" type="text" required>
                 </p>
                 <p>
-                    <label for="customer-name"> Email </label>
+                    <label id="email-label" for="customer-name"> Email </label>
                     <input  placeholder="Enter your email" name="customer-email" id="customer-email" type="email" pattern=".+@example\.com" required>
                 </p>
                 <p>
-                    <label for="customer-age"> Age (optional) </label>
+                    <label id="age-label" for="customer-age"> Age (optional) </label>
                     <input  name="customer-age" id="customer-age" type="number" min="18" max="100" >
                 </p>
             </form>
