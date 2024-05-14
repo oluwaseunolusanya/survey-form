@@ -5,3 +5,10 @@
 input{
     width: 90vw;
 }
+
+#survey-form{
+    padding: 5px;
+    box-sizing: border-box;
+    
+
+}
