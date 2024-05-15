@@ -7,27 +7,27 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <h1 id="description">Gustat Survey Form</h1>
-            <p><i>Thank you for taking the time to help us serve you better</i></p>
+        <header class="header">
+            <h1 class="text-center" id="title">Gustat Survey Form</h1>
+            <p id="description" class="description text-center"><i>Thank you for taking the time to help us serve you better</i></p>
         </header>
-        <main>
+        <main class="container">
             <form id="survey-form" action="">
                 <div class="form-data">
                     <label id="name-label" for="customer-name">Name</label>
-                    <input placeholder="Enter your name" name="customer-name" id="customer-name" type="text" required>
+                    <input class="form-control" placeholder="Enter your name" name="customer-name" id="name" type="text" required>
                 </div>
                 <div class="form-data">
                     <label id="email-label" for="customer-name"> Email </label>
-                    <input  placeholder="Enter your email" name="customer-email" id="customer-email" type="email" pattern=".+@example\.com" required>
+                    <input  class="form-control" placeholder="Enter your email" name="customer-email" id="email" type="email" pattern=".+@example\.com" required>
                 </div>
                 <div class="form-data">
-                    <label id="age-label" for="customer-age"> Age (optional) </label>
-                    <input  name="customer-age" id="customer-age" type="number" min="18" max="100" >
+                    <label id="number-label" for="customer-age"> Age (optional) </label>
+                    <input class="form-control" name="customer-age" id="number" type="number" min="18" max="100" placeholder="18" >
                 </div>
                 <div class="form-data">
                     <p> What option best describes your diet? </p>
-                    <select id="dropdown" name="diet" required="">
+                    <select class="form-control" id="dropdown" name="diet" required="">
                         <option disabled="" selected="" value="">Select diet</option>
                         <option value="vegan">Vegan</option>
                         <option value="vegetarian">Vegetarian</option>
