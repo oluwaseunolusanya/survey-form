@@ -1,5 +1,5 @@
 # Survey Form
-A survey form used to collect data from customers for Gustat, a Takeaway restaurant.
+A static web survey form used to collect data from customers for Gustat, a Takeaway restaurant.
 
 
 https://gustat-customer-feedback.netlify.app/
